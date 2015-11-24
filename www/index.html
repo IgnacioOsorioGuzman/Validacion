@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Titulo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+       
+        <link href="style/newcss.css" rel="stylesheet" type="text/css"/>
+        
+        <script>$( "#form1" ).validVal() </script>
+    </head>
+    <body>
+      
+        
+        
+     
+        
+        
+        
+<form id="form1" class="form-wrapper" action="#ex1" method="post">
+
+    <div>
+
+        <label for="nombre">Nombre</label>
+
+        <input id="nombre" type="text" name="default_1" value="" size="24" placeholder="Default value" required="required"/>
+
+    </div>
+
+    <div>
+
+        <label for="apellido">Apellido</label>
+
+        <input id="apellido" class="required" type="text" name="req_1" value="" size="24" required="required" />
+
+    </div>
+
+    <div>
+
+        <label for="numero">Numero</label>
+
+        <input id="numero" type="number" name="number_1" value="" required="required" />
+
+    </div>
+
+    <div>
+        <label for="email">E-mail</label>
+
+        <input id="email" type="email" name="email_1" value="" required="required" />
+
+    </div>
+
+    <div>
+
+        <label for="direccion_web">Direccion web</label>
+
+        <input id="direccion_web" type="url" name="url_1" value="" />
+
+    </div>
+
+    <div>
+
+        <label for="comuna">Comuna</label>
+
+        <select id="comuna" class="placeholder" name="select_1" size="1">
+
+            <option value="">Maipu</option>
+
+            <option value="val2">Santiago</option>
+
+            <option value="val3">Providencia</option>
+
+            <option value="val4">Huechuraba</option>
+
+        </select>
+
+    </div>
+
+    <div>
+
+        <label for="Intereses">Intereses</label><span class="checkbox-container">
+
+            <input id="Intereses" type="checkbox" name="check1_1" value="yes" data-vv-requiredgroup="group_1" />
+
+            <input   type="checkbox" name="check2_1" value="yes" data-vv-requiredgroup="group_1" />
+
+           
+
+        </span></div>
+
+   
+
+    <div>
+
+        <input type="submit" name="enviar" value="Submit" />
+
+        <input type="reset" name="borrar" value="Reset" />
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+
+</form>
+
+        
+    </body>
+</html>
+
